@@ -1,0 +1,82 @@
+h1 {
+    color: brown;
+border: solid;
+font-size: 55px;
+font-family: cursive;
+
+}
+
+ 
+
+body{
+background-color: rgb(128,128,128);
+
+}
+.header{
+background-color: aquamarine;
+display:flex;
+justify-content:space-around;
+
+}
+
+.grid{
+
+background-color: chartreuse;
+display: flex;
+justify-content:space-evenly;
+flex-wrap:wrap;
+
+}
+.footer{
+    background-color: chocolate;
+    display: flex;
+    justify-content:flex-end;
+
+}
+
+.menu a{
+margin:30px
+
+}
+
+.menu{
+margin-top: 100px;
+
+
+}
+
+a:link{
+color:crimson
+
+}
+a:visited{
+color:chartreuse
+
+}
+
+.item{
+position:relative
+
+
+}
+.item p{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+opacity:0
+
+}
+
+.item:hover p{
+opacity:1
+
+}
+
+.item:hover img{
+    opacity:0.3
+    
+    }
+    
+    
+
